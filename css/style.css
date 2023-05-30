@@ -1,0 +1,104 @@
+body{
+            
+    margin: 5px auto;
+    padding: 5px;
+    width: 800px;
+    font-size: 12px;
+}
+.row .col {
+    border-radius: 10px;
+    background-color: #F6F2E8;
+    
+    min-width: 380px;
+    width: 48%;
+    margin: 5px;
+    min-height: 300px;
+}
+.row:first-child .col:first-child {
+    background-color: burlywood;
+}
+
+input {
+    width: 120px;
+    height: 20px;
+}
+
+button {
+    width: 60px;
+    height: 25px;
+    font-size: 14px;
+    background-color: lightgray;
+    border-color: rgb(143, 108, 63);
+}
+label{
+    margin-right: 90px;
+}
+
+.col a{
+    text-decoration: none;
+    color: rgb(8, 8, 140);
+}
+
+.container-a{
+    margin: 15% 5% 5% 5%;
+}
+
+.col-imgs{
+    display: flex;
+    margin: 15% 0% 0% 0%;
+}
+
+.col-imgs img{
+    width: 95px;
+    height: 70px;
+
+}
+
+.reset-padding{
+    padding: 0;
+}
+
+.col-text-b{
+    margin: 5%;
+}
+
+.col-c{
+    margin-top: 10%;
+    text-align: justify;
+    float: left;
+    width: 50%;
+    height: 60%;
+    border-color: black;
+}
+
+.col-c img{
+    width: 180px;
+    height: 150px;
+}
+
+.col-c-down a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(172, 129, 73);
+
+}
+
+.col-d-imgs{
+    margin: 10%;
+}
+.col-d-imgs img{
+    margin: 2%;
+}
+
+h2, h5{
+    margin: 5%;
+    color: rgb(172, 129, 73);
+    text-shadow: #000 2px 3px 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h6 {
+    margin: 5%;
+    color: rgb(78, 39, 39);
+    font-weight: bold;
+}
